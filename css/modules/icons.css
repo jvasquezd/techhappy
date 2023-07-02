@@ -1,0 +1,36 @@
+.icons{
+    padding: var(--padding-section) 0;
+}
+
+@media (min-width: 768px) {
+    .icons{
+        display: flex;
+        gap: 1.25rem;
+    }
+}
+
+.icon{
+    text-align: center;
+    margin-bottom: calc(var(--margin-section) / 2 );
+}
+
+.icon:last-of-type{
+    margin: 0;
+}
+
+@media (min-width:768px) {
+    .icon{
+        margin: 0;
+    }
+}
+
+.icon__img{
+    width: 3.215rem;
+    margin: 0 auto;
+}
+
+.icon__title{
+    color: var(--primary-theme-color);
+    text-transform: uppercase;
+    margin-top: calc(var(--margin-section) / 2 );
+}

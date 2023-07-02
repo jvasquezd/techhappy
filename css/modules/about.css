@@ -1,0 +1,84 @@
+.about {
+    /* background-image: linear-gradient(to bottom, transparent 50%, var(--primary-theme-color) 0%), url(../../img/imagen-mujer.webp); */
+    background-position: right;
+    background-repeat: repeat, no-repeat;
+    background-size: 100%, 68.75rem;
+}
+
+.notavif.notwebp .about {
+    background-image: linear-gradient(to bottom, transparent 50%, var(--primary-theme-color) 0%), url(../../img/imagen-mujer.jpg);
+}
+
+.webp .about {
+    background-image: linear-gradient(to bottom, transparent 50%, var(--primary-theme-color) 0%), url(../../img/imagen-mujer.webp);
+}
+
+.avif .about {
+    background-image: linear-gradient(to bottom, transparent 50%, var(--primary-theme-color) 0%), url(../../img/imagen-mujer.avif);
+}
+
+@media (min-width: 768px) {
+    .about {
+        background-repeat: repeat, no-repeat;
+    }
+
+    .notavif.notwebp .about {
+        background-image: linear-gradient(to left, transparent 50%, var(--primary-theme-color) 0%), url(../../img/imagen-mujer.jpg);
+    }
+
+    .webp .about {
+        background-image: linear-gradient(to left, transparent 50%, var(--primary-theme-color) 0%), url(../../img/imagen-mujer.webp);
+    }
+
+    .avif .about {
+        background-image: linear-gradient(to left, transparent 50%, var(--primary-theme-color) 0%), url(../../img/imagen-mujer.avif);
+    }
+}
+
+@media (min-width: 1600px) {
+    .about {
+        background-size: 100%, 131.25rem;
+    }
+}
+
+.about__text {
+    grid-row: 2 / 3;
+    color: var(--primary-text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: var(--padding-section);
+}
+
+.about__title {
+    font-size: 2.5rem;
+}
+
+.about__paragraph {
+    font-size: 1.25rem;
+    line-height: 2;
+}
+
+
+@media (min-width: 768px) {
+    .about {
+        background-image: linear-gradient(to left, transparent 50%, var(--primary-theme-color) 0%), url(../../img/imagen-mujer.jpg);
+        background-repeat: repeat, no-repeat;
+    }
+
+    .c-gap {
+        column-gap: 2.5rem;
+    }
+
+    .r-gap {
+        row-gap: unset;
+    }
+
+    .about__body {
+        padding: calc(var(--padding-section) * 2) 0;
+    }
+
+    .about__text {
+        padding-bottom: 0;
+    }
+}

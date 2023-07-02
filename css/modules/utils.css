@@ -1,0 +1,38 @@
+.t-center{
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .g-elements {
+        display: grid;
+    }
+    .g-template-columns-2fr {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.g-elements{
+    display: grid;
+}
+
+.r-gap{
+    row-gap: var(--padding-section);
+}
+
+.g-elements-template-rows{
+    grid-template-rows: repeat(2, 25rem);
+}
+
+.green-gradient{
+    color: transparent;
+    background: linear-gradient(to right, var(--primary-theme-color) 0%, var(--secondary-theme-color) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+@media (min-width: 768px) {
+    .g-elements-template-rows{
+        grid-template-rows: unset;
+        grid-template-columns: repeat(2,1fr);
+    }
+}

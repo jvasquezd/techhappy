@@ -1,0 +1,19 @@
+@import './modules/variables.css';
+@import './modules/utils.css';
+@import './modules/layout.css';
+@import './modules/header.css';
+@import './modules/icons.css';
+@import './modules/about.css';
+@import './modules/models.css';
+
+.body {
+    font-family: var(--primary-font-family);
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.main{
+    overflow: hidden;
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,100;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+/* Custom properties */
+:root {
+    scroll-behavior: smooth;/*Navegacion suavizada*/
+    --primary-theme-color: #1073BA;
+    --secondary-theme-color: #00DA55;
+    --tertiary-theme-color:#3B3B3B;
+    --quaternary-theme-color: #1f1e1e;
+    --quinary-theme-color: #e1e1e1;
+    --primary-text-color: #fff;
+    --secondary-text-color: #aeaeae;
+    --reverse-primary-text-color: #000;
+    --primary-invalid-color: crimson;
+    --primary-shadow-color: #20232a80;
+    --secondary-shadow-color: #282c3480;
+    --tertiary-shadow-color: #00000040;
+    --reverse-primary-shadow-color: #fff8;
+    --primary-highlight-color: #61dafb;
+    --secondary-highlight-color: gold;
+    --primary-button-color: #61dafb;
+    --secondary-button-color: gold;
+    --primary-font-family: 'Roboto', monospace;
+    --secondary-font-family: 'Lato',monospace;
+    /* --padding-section: 1.5rem; */
+    --padding-section: 3.125rem;
+    --padding-container: 1rem;
+    --max-width-container: 640px;
+    --primary-border-radius: 0.5rem;
+    --margin-section: 3.215rem;
+}
