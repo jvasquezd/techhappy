@@ -38,6 +38,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* transition: ; */
+    transition-property: transform;
+    transition-duration: .3s;
 }
 
 .models__item:hover{
