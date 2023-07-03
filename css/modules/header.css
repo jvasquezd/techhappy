@@ -17,13 +17,13 @@
 
 
 
-.header__text{
+.header__body{
     text-align: center;
     padding-top: var(--padding-section);
 }
 
 @media (min-width: 768px) {
-    .header__text{
+    .header__body{
         text-align: left;
         display: flex;
         flex-direction: column;
@@ -33,28 +33,28 @@
 }
 
 
-.header__text-tagline{
+.header__tagline{
     font-size: 1.875rem;
     font-weight: 900;
     margin: 0;
 }
 
-.header__text-title{
+.header__title {
     font-size: 3.75rem;
     margin: 0;
 }
 
 @media (min-width: 768px){
-    .header__text-title {
+    .header__title {
         font-size: 6.25rem;
         line-height: 1;
     }
 }
 
-.header__text-description{
+.header__description{
     margin: 0;
 }
 
-.header__text-price{
+.header__price{
     margin: 0;
 }
