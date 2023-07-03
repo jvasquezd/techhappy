@@ -35,6 +35,19 @@
     background-repeat: no-repeat;
     background-position: 90% center;
     background-size: 9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.models__item:hover{
+    transform: scale(1.1);
+}
+
+@media (min-width: 992px){
+    .models__item{
+        margin-bottom: 0;
+    }
 }
 
 .models__name{
@@ -49,7 +62,6 @@
 .models__item:first-of-type{
     margin-bottom: 0;
 }
-
 
 .models__item--x{
     background-image: url(../../img/modelo-x.svg);
@@ -66,7 +78,14 @@
 }
 
 @media (min-width: 992px){
-
+    .models__item--z{
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+        background-size: 15.625rem;
+    }
+    .models__item--z .models__name{
+        font-size: 2.5rem;
+    }
 }
 
 .models__item--z .models__price{
