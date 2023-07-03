@@ -5,6 +5,8 @@
 @import './modules/icons.css';
 @import './modules/about.css';
 @import './modules/models.css';
+@import './modules/newsletter.css';
+@import './modules/footer.css';
 
 .body {
     font-family: var(--primary-font-family);

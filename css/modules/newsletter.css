@@ -1,0 +1,80 @@
+.newsletter{
+    background-position: top center;
+    background-repeat: repeat, no-repeat;
+    background-size: 100%, 68.75rem;
+}
+
+.notavif.notwebp .newsletter {
+    background-image: linear-gradient(to bottom, transparent 50%, var(--primary-text-color) 0%), url(../../img/newsletter.jpg);
+}
+
+.webp .newsletter {
+    background-image: linear-gradient(to bottom, transparent 50%, var(--primary-text-color) 0%), url(../../img/newsletter.webp);
+}
+
+.avif .newsletter {
+    background-image: linear-gradient(to bottom, transparent 50%, var(--primary-text-color) 0%), url(../../img/newsletter.avif);
+}
+
+
+@media (min-width: 768px) {
+    .newsletter {
+        background-position: center, -13.125rem;
+        background-size: 100%, 62.5rem;
+        background-repeat: repeat, no-repeat;
+    }
+
+    .notavif.notwebp .newsletter {
+        background-image: linear-gradient(to right, transparent 50%, var(--primary-text-color) 0%), url(../../img/newsletter.jpg);
+    }
+
+    .webp .newsletter {
+        background-image: linear-gradient(to right, transparent 50%, var(--primary-text-color) 0%), url(../../img/newsletter.webp);
+    }
+
+    .avif .newsletter {
+        background-image: linear-gradient(to right, transparent 50%, var(--primary-text-color) 0%), url(../../img/newsletter.avif);
+    }
+}
+
+@media (min-width: 1600px) {
+    .newsletter {
+        background-size: 100%, 125rem;
+        background-position: center, 0% -18.75rem;
+    }
+}
+
+.newsletter__text {
+    grid-row: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: var(--padding-section);
+}
+
+@media (min-width: 768px) { 
+    .newsletter__text {
+        grid-row: unset;
+        grid-column: 2 / 3;
+    }
+}
+
+.newsletter__form input[type="text"] {
+    width: 100%;
+    padding: 0.625rem;
+    box-sizing: border-box;
+    font-size: 100%;
+    margin: 0;
+}
+
+.newsletter__form input[type="submit"] {
+    width: 100%;
+    padding: 1.25rem;
+    background-color: var(--primary-theme-color);
+    color: var(--primary-text-color);
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-weight: 900;
+    border: none;
+    box-sizing: border-box;
+}
